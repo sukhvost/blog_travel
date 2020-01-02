@@ -81,6 +81,17 @@
 }
 
 
+/* mv boli font */
+
+@font-face {
+    font-family: 'MV Boli';
+    src: url('mvboli/mvboli.ttf') format('truetype');
+    src: local('Museo Sans Cyrl 900 Italic'), local('MuseoSansCyrl-900Italic');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /* awesome font */
 
 @font-face {
