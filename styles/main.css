@@ -1,3 +1,111 @@
 body {
     font-family: 'Museo Sans Cyrl 500';
+    font-size: 16px;
+    background: #fff;
 }
+
+.flex_row {
+    display: flex;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.center {
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/img_index/bg_header.png') no-repeat top 11.5rem center/contain;
+    position: relative;
+}
+
+.block_bg_animate img {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin: 0 -5px;
+    animation: shake .7s linear alternate infinite;
+}
+
+@keyframes shake {
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.nav_link_icon {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 1.5625rem;
+    padding-bottom: 1.5625rem;
+}
+
+.nav_link_icon a {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    color: #000;
+    margin: 0 1em;
+}
+
+.nav_link_icon a:hover {
+    font-size: 1.2em;
+    margin: 0 .71em;
+}
+
+.line {
+    position: absolute;
+    top: 4.125rem;
+    width: 100%;
+    height: 1px;
+    background: #b2cebc;
+}
+
+.nav_link {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 4rem;
+}
+
+.nav_link a {
+    display: block;
+    color: #000;
+    margin: 2.8125em 1em;
+}
+
+.nav_link a:hover {
+    text-decoration: underline #000;
+}
+
+
+/* .wrap_header_autor {
+    position: absolute;
+    top: 16.5rem;
+    left: 28.5%;
+}
+
+.wrap_header_autor img {
+    display: block;
+    width: 25%;
+}
+
+.name {
+    font-family: 'MV Boli';
+    font-size: 1.6em;
+    padding: 2rem 0 0 13rem;
+    transform: rotate(-25deg);
+} */
