@@ -151,29 +151,22 @@ body {
     color: #000;
     font-size: 1.3125rem;
     text-align: center;
-    padding-bottom: 1.5rem;
-    position: relative;
 }
 
-.intro_article::after {
-    display: block;
-    content: '';
+.article_line {
     width: 2rem;
     height: 2px;
     background: #000;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
+    margin: 1.5rem auto;
 }
 
-.article time {
+.article_time {
     display: block;
     font-size: 1rem;
     font-weight: 300;
     color: #6b6b6b;
     text-align: center;
-    margin: 1.5rem 0 1.875rem;
+    margin-bottom: 1.875rem;
 }
 
 .content_article {
