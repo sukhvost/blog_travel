@@ -1,7 +1,4 @@
 @media screen and (max-width: 1280px) {
-    body {
-        background: url('../img/img_index/bg_header.png') no-repeat top 11.5rem center/contain;
-    }
     .footer {
         width: 100%;
         width: 900px;
