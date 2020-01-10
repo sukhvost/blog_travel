@@ -1,0 +1,62 @@
+.intro {
+    font-family: 'MV Boli';
+    font-size: 2.625rem;
+    padding: 0 0 4rem;
+}
+
+
+/* article */
+
+.article {
+    width: 50%;
+    padding-right: 2rem;
+    margin: 0 auto;
+}
+
+.wrap_article {
+    width: 66%;
+    flex-wrap: wrap;
+}
+
+.article img {
+    width: 100%;
+}
+
+.link_article {
+    display: block;
+    font-weight: 300;
+    color: #a1c77a;
+    text-align: center;
+    margin: 1.875rem 0 1.125rem;
+}
+
+.intro_article {
+    display: block;
+    color: #000;
+    font-size: 1.3125rem;
+    text-align: center;
+}
+
+.article_line {
+    width: 2rem;
+    height: 2px;
+    background: #000;
+    margin: 1.5rem auto;
+}
+
+.article_time {
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.content_article {
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+
+/* article end */

@@ -1,0 +1,73 @@
+/* main page */
+
+.wrap_main_content {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.block_1 {
+    background: #a1c77a;
+}
+
+.block_1 h1 {
+    font-size: 4rem;
+    margin-top: -2.6rem;
+    margin-left: -1.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.my_hist {
+    margin: 0 3rem 0 1rem;
+    z-index: 1;
+}
+
+.my_hist img {
+    width: 70%;
+}
+
+.my_hist p {
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+.block_im {
+    margin-top: -2.6rem;
+    margin-right: 8rem;
+}
+
+.rot {
+    padding-bottom: 8rem;
+}
+
+.rot img {
+    display: block;
+    width: 55%;
+    height: auto;
+    margin-top: -7rem;
+    margin-left: 4rem;
+    transform: rotate(-12deg);
+}
+
+.wrap_p {
+    width: 30%;
+}
+
+.rot p {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+.my_hist_2 p {
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+.block_2 {
+    padding: 2.5rem 0;
+}
+
+
+/* main page */
