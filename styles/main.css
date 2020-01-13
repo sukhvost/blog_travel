@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
 body {
     width: 100%;
     height: 100%;
+    background: #fff;
     font-family: 'Museo Sans Cyrl 500';
     font-size: 16px;
 }
@@ -105,8 +107,8 @@ body {
 
 .main {
     width: 100%;
-    max-height: 100%;
-    flex: 1 1;
+    /* height: 100%; */
+    flex: 1;
 }
 
 .wrap_main {
@@ -117,9 +119,175 @@ body {
 
 /* content */
 
+.block_menu_2 {
+    z-index: 100;
+}
+
+.block_photo {
+    width: 29.0625rem;
+    height: 43.4375rem;
+    margin: 0;
+    background: url('../img/img_index/img_1.jpg') no-repeat center/cover;
+    position: relative;
+}
+
+.block_photo::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #fff;
+}
+
+.block_desc {
+    width: 18rem;
+    height: 24.0625rem;
+    background: url('../img/img_index/img_description.jpg') no-repeat center/cover;
+    margin-left: -8.75rem;
+    margin-top: -11.5625rem;
+    z-index: 100;
+}
+
 .description {
-    font-family: 'MV Boli';
-    font-size: 2.625rem;
+    font-family: 'Pangolin', cursive;
+    font-size: 2.675rem;
+    line-height: 3rem;
+    text-align: center;
+    padding: 6.8rem 0.6875rem;
+}
+
+.center {
+    justify-content: center;
+}
+
+.block_blog {
+    width: 18rem;
+    height: 13.3125rem;
+    background: url('../img/img_index/img_blog.jpg') no-repeat center/cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0 6.5625rem 3.375rem;
+}
+
+.block_blog::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #fff;
+}
+
+.btn {
+    display: block;
+    z-index: 100;
+    width: 10.625rem;
+    height: 2.5rem;
+    color: #000;
+    text-align: center;
+    background: #fff;
+    padding: .8rem 0;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.block_intro {
+    width: 31.0625rem;
+    height: 19.0625rem;
+    background: #eaffe3;
+    margin: 3.375rem 0 0 -1.5rem;
+    position: relative;
+    z-index: -100;
+}
+
+.block_intro span {
+    display: block;
+}
+
+.block_intro h1 {
+    width: 14.0625rem;
+    position: absolute;
+    top: -1.875rem;
+    left: 1rem;
+}
+
+.wrap_span {
+    transform: rotate(-15deg);
+    margin: -1.5rem 0 1.5rem 8rem;
+}
+
+.span_style_1 {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 3rem;
+}
+
+.span_style_2 {
+    font-family: 'Pangolin', cursive;
+    font-size: 3rem;
+}
+
+.block_autor {
+    width: 26.875rem;
+    height: 19.0625rem;
+    background: url('../img/img_index/bg_my_hist.png') no-repeat center/cover;
+    margin: -6.5625rem 0 0 -1.85rem;
+    z-index: 100;
+}
+
+.img_autor {
+    margin: 1.125rem;
+}
+
+.block_preview {
+    margin: 1.625rem 0.5rem 1.625rem 0;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.greeting {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 0.875rem;
+    color: #fff;
+    line-height: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.block_gallery {
+    width: 25.3125rem;
+    height: 16.25rem;
+    background: url('../img/img_index/img_gallery.jpg') no-repeat center/cover;
+    margin: 1rem 0 0 5.1875rem;
+    position: relative;
+}
+
+.block_btn_gallery {
+    width: 12.6875rem;
+    height: 9.75rem;
+    background: rgba(195, 252, 176, .5);
+    position: absolute;
+    bottom: -1.6875rem;
+    left: -1.6875rem;
+}
+
+.btn_gallery {
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
